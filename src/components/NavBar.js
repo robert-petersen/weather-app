@@ -25,7 +25,8 @@ const NavBar = () => {
         <Link className="nav_title" to="/" >Weather App</Link>
       </div>
       <div className="nav_section nav_right">
-
+        <div>Quick Search option here</div>
+        <div>theme?</div>
       </div>
     </nav>
   )
