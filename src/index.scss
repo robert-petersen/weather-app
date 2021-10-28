@@ -1,0 +1,79 @@
+/* CSS reset until line 50 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// *** Font Import / Overall Styles ***
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+* {
+  font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+}
+
+// *** Variables ***
+// background colors
+$background: #333333;
+$background_light: #404040;
+$background_dark: #262626;
+$background_extra_dark: #0d0d0d;
+// text colors
+$text_primary: #1b1b1b;
+$text_secondary: #1b1b1b;
+$text_link: #0b3d91;
+$text_link-hover: #fc3d21;
+
+// *** Component Sheet Imports ***
+@import "./app";
+@import "./components/navBar";
+@import "./components/footer";
+@import "./components/search";
+@import "./components/forcast";
