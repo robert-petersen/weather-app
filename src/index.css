@@ -68,7 +68,7 @@ nav {
   max-width: 100vw;
   height: 80px;
   margin-top: -80px;
-  background-color: transparent;
+  background-color: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,7 +102,7 @@ nav .nav_left {
 
 nav .nav_left .nav_icon {
   font-size: 4rem;
-  color: #0b3d91;
+  color: #00B0FF;
 }
 
 nav .nav_left .nav_title {
@@ -118,7 +118,7 @@ nav .nav_right {
 }
 
 .scrolling {
-  background-color: #e6e6e6;
+  background-color: #f3f3f3;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -160,7 +160,7 @@ footer .links_container a {
 }
 
 footer .links_container a:hover {
-  color: #0b3d91;
+  color: #00B0FF;
 }
 
 footer .links_container h2 {
@@ -168,10 +168,45 @@ footer .links_container h2 {
   margin-bottom: 10%;
 }
 
-.search {
+.home {
   max-width: 100vw;
-  height: 100vh;
-  background: white;
+  height: calc(100vh - 80px);
   margin-top: 80px;
+  background-color: white;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.home .home_about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.home .home_about .weather_img {
+  max-width: 50%;
+}
+
+.home .home_about h1 {
+  width: 30%;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=index.css.map */

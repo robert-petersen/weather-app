@@ -68,12 +68,12 @@ $background_extra_dark: #0d0d0d;
 // text colors
 $text_primary: #1b1b1b;
 $text_secondary: #1b1b1b;
-$text_link: #0b3d91;
+$text_link: #00B0FF;
 $text_link-hover: #fc3d21;
 
 // *** Component Sheet Imports ***
 @import "./app";
 @import "./components/navBar";
 @import "./components/footer";
-@import "./components/search";
+@import "./components/home";
 @import "./components/forcast";
