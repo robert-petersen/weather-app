@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Forcast from "./components/Forcast";
+import Forcast from "./components/Forecast";
 
 function App() {
   const [ results, setResults ] = useState({});
@@ -11,10 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar 
-          results={results} 
-          setResults={setResults}
-        />
+        <NavBar />
         <Switch>
 
           <Route path="/" exact>

@@ -72,8 +72,8 @@ $text_link: #00B0FF;
 $text_link-hover: #fc3d21;
 
 // *** Component Sheet Imports ***
-@import "./app";
 @import "./components/navBar";
 @import "./components/footer";
 @import "./components/home";
 @import "./components/forcast";
+@import "./components/dayForecast";
