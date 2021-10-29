@@ -22,7 +22,7 @@ const NavBar = () => {
     <nav className={`nav ${ scrollNav ? "scrolling" : "" }`}>
       <div className="nav_section nav_left">
         <Link className="nav_icon" to="/" ><FaCloudSunRain /></Link>
-        <Link className="nav_title" to="/" >Weather App</Link>
+        <Link className="nav_title" to="/" >Weather Now</Link>
       </div>
     </nav>
   )

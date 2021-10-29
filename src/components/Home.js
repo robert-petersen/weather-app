@@ -16,7 +16,7 @@ const Home = ({ results, setResults }) => {
     setError("");
     setIsFetching(true);
     axios
-    .get(`http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_API_KEY}&q=${searchValue}&days=7&aqi=no&alerts=no`)
+    .get(`http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_API_KEY}&q=${searchValue}&days=3&aqi=no&alerts=no`)
     .then((res) => {
       console.log(res.data)
       setResults(res.data);
@@ -52,7 +52,7 @@ const Home = ({ results, setResults }) => {
   return (
     <main className="home">
       <section className="home_content">        
-        <h1>Weather App</h1>
+        <h1>Weather Now</h1>
         <h2>Enter a city name or postal code to find the weather results your looking for!</h2>
         <form onSubmit={onSubmit}>
           <input 
