@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
         <div className="links_container" >
         <h2 className="title">Resources</h2>
-        <a href="https://api.nasa.gov/" target="_blank" rel="noreferrer">Weather API</a>
+        <a href="https://www.weatherapi.com/" target="_blank" rel="noreferrer">Weather API</a>
       </div>
       <div className="links_container" >
         <h2 className="title">Developer Links</h2>
