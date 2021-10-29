@@ -2,7 +2,7 @@ nav {
   max-width: 100vw;
   height: 80px;
   margin-top: -80px;
-  background-color: whitesmoke;
+  background-color: rgba(65, 65, 65, 0.8);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,17 +28,13 @@ nav {
     .nav_title {
       margin-left: 2%;
       font-size: 1.6rem;
-      color: $text_primary;
+      color: white;
       text-decoration: none;
     }
-  }
-
-  .nav_right {
-    justify-content: space-around;
   }
 }
 
 .scrolling {
-  background-color: #f3f3f3;
+  background-color: rgba(65, 65, 65, 1);
   transition: all 0.3s ease-in-out;
 }
