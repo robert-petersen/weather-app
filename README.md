@@ -12,3 +12,10 @@ Weather Now searches and displays forcast data based on your location search. Th
 ## Links
 - [weather api](https://www.weatherapi.com/)
 - [Deployed Site](https://weather-app-swart-sigma.vercel.app/)
+
+<!-- To Do for Rework
+  - create a new wireframe
+  - figure out whats currently broken
+  - explore data api gives and think of fun features to work on
+  - fix bugs and work on new features
+-->
