@@ -14,8 +14,9 @@ Weather Now searches and displays forcast data based on your location search. Th
 - [Deployed Site](https://weather-app-swart-sigma.vercel.app/)
 
 <!-- To Do for Rework
-  - create a new wireframe
   - figure out whats currently broken
   - explore data api gives and think of fun features to work on
+  - create a new wireframe
   - fix bugs and work on new features
+  - good enough for job interview showcase
 -->
