@@ -13,7 +13,6 @@ Weather Now searches and displays forcast data based on your location search. Th
 
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <br />
-<br />
 
 ## Dependencies
 
@@ -41,12 +40,10 @@ A react library that provides tools to easily animate vertical scrolling. Docs c
 
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <br />
-<br />
 
 ## Future Improvements
 
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
-<br />
 <br />
 
 ## Links
