@@ -2,7 +2,20 @@
 
 Weather Now searches and displays forcast data based on your location search. This application uses [weather api](https://www.weatherapi.com/). View the deployed site [here](https://weather-app-swart-sigma.vercel.app/).
 
-## What I used
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
+<br />
+
+## Content
+
+- [Dependencies](#dependencies)
+- [Future Improvements](#future-improvements)
+- [Links](#links)
+
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
+<br />
+<br />
+
+## Dependencies
 
 ### React
 
@@ -26,6 +39,15 @@ A react library that provides tools to easily animate vertical scrolling. Docs c
 
 ### Material UI
 
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
+<br />
+<br />
+
+## Future Improvements
+
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
+<br />
+<br />
 
 ## Links
 - [weather api](https://www.weatherapi.com/)
